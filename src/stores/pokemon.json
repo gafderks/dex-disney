@@ -1,0 +1,52 @@
+[
+    {
+        "key": "5ijobm",
+        "name": "Pikachu",
+        "imageUrl": "pikachu.png"
+    },
+    {
+        "key": "xu4rfw",
+        "name": "Bulbasaur",
+        "imageUrl": "bulbasaur.png"
+    },
+    {
+        "key": "lz3b6l",
+        "name": "Charmander",
+        "imageUrl": "charmander.png"
+    },
+    {
+        "key": "d392fu",
+        "name": "Jigglypuff",
+        "imageUrl": "jigglypuff.png"
+    },
+    {
+        "key": "ipq79c",
+        "name": "Magikarp",
+        "imageUrl": "magikarp.png"
+    },
+    {
+        "key": "zgk693",
+        "name": "Gengar",
+        "imageUrl": "gengar.png"
+    },
+    {
+        "key": "6x5do8",
+        "name": "Meoth",
+        "imageUrl": "meoth.png"
+    },
+    {
+        "key": "u5mglx",
+        "name": "Mewtwo",
+        "imageUrl": "mewtwo.png"
+    },
+    {
+        "key": "6lny2i",
+        "name": "Snorlax",
+        "imageUrl": "snorlax.png"
+    },
+    {
+        "key": "ife7ej",
+        "name": "Squirtle",
+        "imageUrl": "squirtle.png"
+    }
+]
