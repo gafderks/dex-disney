@@ -6,10 +6,12 @@ const store = useCollectableStore();
 </script>
 
 <template>
-  <h1>{{store.foundItems.size }} van {{ store.items.length }} gevonden!</h1>
-  <CollectableItem v-for="(item, i) in store.items" :value="item" :key="i" />
+  <div class="container">
+    <h1>{{ store.foundItems.size }} van {{ store.items.length }} gevonden!</h1>
+    <div class="row">
+      <CollectableItem v-for="(item, i) in store.items" :value="item" :key="i" />
+    </div>
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

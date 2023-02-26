@@ -14,9 +14,14 @@ const fullUrl = computed(() => {
 })
 </script>
 <template>
-    <div>
-        <img :src="fullUrl" width="200" :class="{'found': value.found}" />
+    <div class="col">
+    <div class="card" style="width: 18rem;">
+        <img :src="fullUrl" width="200" :class="[{'found': value.found}, 'card-img-top']" />
+        <div class="card-body">
+            <h5 class="card-title">{{ value.name }}</h5>
+        </div>
     </div>
+</div>
 </template>
 
 <style lang="scss" scoped>
