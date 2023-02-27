@@ -8,10 +8,14 @@ const store = useCollectableStore();
 <template>
   <div class="container">
     <h1>{{ store.foundItems.size }} van {{ store.items.length }} gevonden!</h1>
-    <div class="row">
+    <div class="d-flex flex-row justify-content-center align-items-center flex-wrap">
       <CollectableItem v-for="(item, i) in store.items" :value="item" :key="i" />
     </div>
   </div>
 </template>
 
-<style scoped></style>
+<style>
+body {
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+</style>
