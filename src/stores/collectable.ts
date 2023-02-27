@@ -38,6 +38,9 @@ export const useCollectableStore = defineStore('collectable', () => {
     if (params.found && typeof params.found === 'string') {
       registerFind(params.found);
     }
+    if (params.reset) {
+      foundItems.value.clear();
+    }
   });
 
   return { items, foundItems, registerFind }
