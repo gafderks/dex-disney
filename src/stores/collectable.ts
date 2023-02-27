@@ -33,6 +33,10 @@ export const useCollectableStore = defineStore('collectable', () => {
   function registerFind(key: string): boolean {
     if (items.value.find(item => item.key === key)) {
       foundItems.value.add(key);
+      document.getElementById(key)?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+      });
       return true;
     }
     return false;

@@ -26,7 +26,7 @@ const qrcode = useQRCode(`${pageUrl}#found=${props.value.key}`);
 </script>
 <template>
     <div class="col">
-        <div :class="['card', { 'found': value.found, 'key': showQrKey }]">
+        <div :id="value.key" :class="['card', { 'found': value.found, 'key': showQrKey }]" ref="card">
             <div class="qr" v-if="showQrKey">
                 <div>Code: <code>{{ value.key }}</code></div>
                 <img :src="qrcode" alt="QR code" />
