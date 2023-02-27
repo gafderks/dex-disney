@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "@vueuse/core": "^9.13.0",
+    "@vueuse/integrations": "^9.13.0",
     "pinia": "^2.0.32",
+    "qrcode": "^1.5.1",
     "vue": "^3.2.47"
   },
   "devDependencies": {
