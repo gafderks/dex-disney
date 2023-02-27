@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useCollectableStore } from '@/stores/collectable';
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 
 const store = useCollectableStore();
 
@@ -22,6 +22,10 @@ function check() {
         message.value = '';
     }, 5000)
 }
+
+watch(code, () => {
+    code.value = code.value.toUpperCase();
+})
 
 </script>
 

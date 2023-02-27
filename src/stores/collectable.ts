@@ -12,7 +12,12 @@ export interface CollectableItem {
 
 export const useCollectableStore = defineStore('collectable', () => {
 
-  const inventory: Omit<CollectableItem, "found">[] = pokemon;
+  const inventory: Omit<CollectableItem, "found">[] = pokemon.map(item => {
+    return {
+      ...item,
+      key: item.key.toUpperCase()
+    }
+  });
 
   const foundItems = useLocalStorage('foundItems', new Set<string>())
 
