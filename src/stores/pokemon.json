@@ -48,5 +48,30 @@
         "key": "ife7ej",
         "name": "Squirtle",
         "imageUrl": "squirtle.png"
+    },
+    {
+        "key": "t2573h",
+        "name": "Doduo",
+        "imageUrl": "doduo.png"
+    },
+    {
+        "key": "39ew4r",
+        "name": "Eevee",
+        "imageUrl": "eevee.png"
+    },
+    {
+        "key": "yx6fkv",
+        "name": "Magnemite",
+        "imageUrl": "magnemite.png"
+    },
+    {
+        "key": "84we0j",
+        "name": "Onix",
+        "imageUrl": "onix.png"
+    },
+    {
+        "key": "h156cu",
+        "name": "Psyduck",
+        "imageUrl": "psyduck.png"
     }
 ]
