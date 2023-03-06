@@ -23,8 +23,9 @@ const showKey = computed(() => params.key === 'leiding');
       </p>
       <FormAddManual />
     </header>
-    <div class="collectable-list d-flex flex-row justify-content-center align-items-center flex-wrap">
-      <CollectableItem :show-qr-key="showKey" v-for="(item, i) in store.items" :value="item" :key="i" />
+    <div class="d-flex flex-row justify-content-center align-items-center flex-wrap">
+      <CollectableItem class="flex-grow-0" :show-qr-key="showKey" v-for="(item, i) in store.items" :value="item"
+        :key="i" />
     </div>
   </div>
 </template>
@@ -32,10 +33,5 @@ const showKey = computed(() => params.key === 'leiding');
 <style>
 body {
   background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
-}
-
-.collectable-list::after {
-  content: "";
-  flex: auto;
 }
 </style>
