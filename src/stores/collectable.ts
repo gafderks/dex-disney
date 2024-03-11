@@ -1,7 +1,7 @@
 import { ref, computed, watchEffect, watch } from 'vue'
 import { defineStore } from 'pinia'
 import { useUrlSearchParams, useLocalStorage } from '@vueuse/core';
-import pokemon from './pokemon.json';
+import pokemon from './characters.json';
 
 export interface CollectableItem {
   key: string;
